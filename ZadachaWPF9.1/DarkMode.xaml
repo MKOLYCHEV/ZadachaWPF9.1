@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WindowStyle">
+        <Setter Property="Control.Background" Value="Black"/>
+    </Style>
+
+    <Style x:Key="TextBoxStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Control.Foreground" Value="WhiteSmoke"/>
+    </Style>
+
+    <Style x:Key="ButtonStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Button.Foreground" Value="WhiteSmoke"/>
+    </Style>
+
+    <Style x:Key="ToolBarTrayStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Control.Foreground" Value="WhiteSmoke"/>
+    </Style>
+
+    <Style x:Key="ToolBarStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ToolBar.Foreground" Value="WhiteSmoke"/>
+    </Style>
+
+    <Style x:Key="MenuStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Menu.Background" Value="#FF373737"/>
+        <Setter Property="Menu.Foreground" Value="WhiteSmoke"/>
+        <Setter Property="Menu.BorderBrush" Value="WhiteSmoke"/>
+    </Style>
+
+    <Style x:Key="ComboboxStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Menu.Background" Value="#FF373737"/>
+        <Setter Property="Menu.Foreground" Value="WhiteSmoke"/>
+        <Setter Property="Menu.BorderBrush" Value="WhiteSmoke"/>
+    </Style>
+
+    <Style x:Key="RadioButtonStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ToolBar.Foreground" Value="WhiteSmoke"/>
+    </Style>
+</ResourceDictionary>
